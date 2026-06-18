@@ -326,6 +326,7 @@
 # y=3
 # print(x is y)
 
+
 # x= 10 
 # r ="defeven"if x%2==0 else "odd"
 # print(r)
@@ -425,3 +426,24 @@ for i in range(1,11,1):
 f=open('sample.txt','a')          
 f.write("helllo")
 print("hello")
+
+x= 10 
+r ="even"if x%2==0 else "odd"
+print(r)
+
+a=5
+b=4
+max= a if a>b else b
+print(max)
+
+a=["hai" if i%2==0 else i for i in range(10)]
+print(a)
+
+a=3
+b=4
+c=10
+
+m=a if a>b&a>c else b if b>a&b>c else c
+
+print(m)
+
